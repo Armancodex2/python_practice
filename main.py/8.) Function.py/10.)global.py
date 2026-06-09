@@ -1,4 +1,4 @@
-name = "Anirudh"
+name = "Anirudh"  # global variable
 
 
 def greet():
