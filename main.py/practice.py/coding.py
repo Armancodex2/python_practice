@@ -52,10 +52,18 @@
 # for i in range(1, 11):
 #     print(i, end=" ")
 
-start = int(input("Enter the number:"))
-End = int(input("Enter the number:"))
+# start = int(input("Enter the number:"))
+# End = int(input("Enter the number:"))
 
-total = 0
-for i in range(start, End + 1):
-    total += i
-print(total)
+# total = 0
+# for i in range(start, End + 1):
+#     total += i
+# print(total)
+
+age = int(input("Enter age: "))
+valid_id = input("Do you have a valid ID? (True/False): ") == "True"
+
+if age >= 18 and valid_id:
+    print("You can enter the venue.")
+else:
+    print("You cannot enter the venue.")
